@@ -3,20 +3,20 @@ package com.example.roomviewmodellivedatarecyclerview;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
-
 @Entity(tableName = "note_table")
 public class Note {
 
-
     @PrimaryKey(autoGenerate = true)
     private int id;
-    private String tittle;
+
+    private String title;
+
     private String description;
+
     private int priority;
 
-
-    public Note(String tittle, String description, int priority) {
-        this.tittle = tittle;
+    public Note(String title, String description, int priority) {
+        this.title = title;
         this.description = description;
         this.priority = priority;
     }
@@ -29,9 +29,8 @@ public class Note {
         return id;
     }
 
-
-    public String getTittle() {
-        return tittle;
+    public String getTitle() {
+        return title;
     }
 
     public String getDescription() {
@@ -41,5 +40,4 @@ public class Note {
     public int getPriority() {
         return priority;
     }
-
 }
