@@ -46,7 +46,7 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
 
     //SEE THE ANDROIDX REFACTORING - ON GOOGLE DEVELOPER TO GET THE KNOW MORE ABOUT REFACTORING ABOUT EACH API.
-    implementation "com.google.android.material:material-rc01"
+
 
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
