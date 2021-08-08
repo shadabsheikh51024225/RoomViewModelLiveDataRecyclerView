@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomViewModelLiveDataRecyclerView">
         <activity
+            android:name=".AddNoteActivity" android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
+            android:launchMode="singleTop"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
