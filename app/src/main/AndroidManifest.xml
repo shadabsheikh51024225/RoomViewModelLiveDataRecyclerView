@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomViewModelLiveDataRecyclerView">
         <activity
-            android:name=".AddNoteActivity" android:parentActivityName=".MainActivity"
+            android:name=".AddEditNoteActivity" android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
